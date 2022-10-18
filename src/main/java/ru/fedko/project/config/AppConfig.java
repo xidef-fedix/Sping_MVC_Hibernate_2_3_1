@@ -23,7 +23,7 @@ import java.util.Properties;
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
 @EnableJpaRepositories
-public class AppConfig  {
+public class AppConfig {
     @Autowired
     private Environment env;
 

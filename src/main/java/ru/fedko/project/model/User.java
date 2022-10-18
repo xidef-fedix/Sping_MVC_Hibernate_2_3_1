@@ -17,7 +17,6 @@ public class User {
     private String surname;
 
 
-
     public User() {
     }
 

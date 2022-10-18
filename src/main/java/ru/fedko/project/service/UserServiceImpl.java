@@ -8,11 +8,12 @@ import ru.fedko.project.dao.UserDao;
 import ru.fedko.project.model.User;
 
 import java.util.List;
+
 @Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
-    UserDao userDao;
+    private UserDao userDao;
 
     @Override
     @Transactional(readOnly = true)
